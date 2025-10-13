@@ -16,7 +16,7 @@ body {
     container-name: body;
 
     /* font, change to '' for default discord font */
-    --font: 'figtree';
+    --font: '';
     --code-font: '';
 
     /* sizes */
@@ -1934,3 +1934,4 @@ background-color: var(--bg-5);
     padding: 0 !important;
     z-index: 1000;
 }
+
