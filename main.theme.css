@@ -351,6 +351,7 @@ body {
 
     /* general chat bar improvements */
     .channelTextArea_f75fb0 /* chat bar */ {
+        background: none;
         padding: 7px;
         border-radius: 2px;
     }
@@ -1934,6 +1935,7 @@ background-color: var(--bg-5);
     padding: 0 !important;
     z-index: 1000;
 }
+
 
 
 
