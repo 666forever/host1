@@ -406,6 +406,10 @@ body {
         border-radius: var(--radius-md);
     }
 
+    .newMessagesBar_0f481 {
+        display: none !important;
+    }
+
     .outer_c0bea0 /* profile outer */, 
     .contentWrapper__08434  /* gif panel */ {
         border-radius: var(--radius-lg);
@@ -1168,7 +1172,7 @@ body {
         }
 
         .newMessagesBar__0f481 /* unread bar */ {
-            background-color: var(--accent-3);
+            background-color: none;
         }
         .barButtonAlt__0f481 /* unread bar mark as read button */ {
             --button-secondary-background: var(--accent-3);
@@ -1937,12 +1941,3 @@ background-color: var(--bg-5);
     padding: 0 !important;
     z-index: 1000;
 }
-
-
-
-
-
-
-
-
-
