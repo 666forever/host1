@@ -571,8 +571,9 @@ body {
     --bg-3: hsla(0,0%,0%,1); /* ──── spacing, secondary elements */
     --bg-4: hsla(0,0%,5%,1); /* ──── main background color */
     --bg-5: hsla(0,0%,0%,0.5); /* ──── half transparent */
-    --hover: hsla(0,0%,40%,0.1); /* ──── buttons when hovered */
+    --message-hover: hsla(0,0%,40%,0.2); /* ──── buttons when hovered */
     --active: hsla(0,0%,40%,0.3%); /* ──── clicked or selected */
+    --active-2: hsla(0,0%,50%,0.2%) /* ──── i don't know */
     --bg-brand: hsla(280,40%,80%,1); /* ──── fixing some blurple */
 
     /* ───────── accent colors */
@@ -891,6 +892,7 @@ body {
         --header-primary: var(--text-2);
         --header-secondary: var(--text-4);
         --header-muted: var(--text-4);
+        --message-hover: hsla(0,0%,5%,0.1);
 
         --deprecated-text-input-bg: var(--bg-3);
         --deprecated-text-input-border: var(--border-light);
@@ -1935,6 +1937,7 @@ background-color: var(--bg-5);
     padding: 0 !important;
     z-index: 1000;
 }
+
 
 
 
