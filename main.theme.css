@@ -1820,10 +1820,7 @@ div[id="channels"] > ul[class^="content"] div:has(div[class^="progress"]) {
     display: none;
 }
 
-.searchBar__35e86 {
-    display: none !important;
-}
-
+.searchBar__35e86,
 .chatGradient__36d07 {
     display: none !important;
 }
@@ -1839,19 +1836,11 @@ div[id="channels"] > ul[class^="content"] div:has(div[class^="progress"]) {
 }
 
 .interactive__972a0:hover {
-    transform: scale(1.1);
+    transform: scale(1);
 }
 
-.chatTypingGradientNotAtBottom__36d07 {
-    background: none !important;
-    height: 0px;
-}
-
-.chatGradient__36d07 {
-    background: none !important;
-    height: 0px;
-}
-
+.chatGradient__36d07,
+.chatTypingGradientNotAtBottom__36d07,
 .chatTypingGradientAtBottom__36d07 {
     background: none !important;
     height: 0px;
@@ -1859,6 +1848,7 @@ div[id="channels"] > ul[class^="content"] div:has(div[class^="progress"]) {
 
 .layer__960e4 {
 background-color: var(--bg-5);
+
 }
 
 /* ─────────────────── wider settings */
@@ -1885,59 +1875,17 @@ background-color: var(--bg-5);
 }
 
 /* ─────────────────── clean userpanel */
-.voiceUsers__68617 {
-    display: none !important;
-    pointer-events: none !important;
-    visibility: hidden !important;
+.largePing__06d62,
+.voiceUsers__68617,
+.collapsed__68617,
+.scroller__68617,
+.actionButtons_e131a9 {
+display: none;
 }
-.voiceUsers_e131a9 {
-    display: none !important;
-    pointer-events: none !important;
-    visibility: hidden !important;
-}
-/* ───────── remove actionbuttons */
-[aria-label="Deafen"],
-[aria-label="Deafen"]:hover,
+
 [aria-label="Disable Game Activity"],
-[aria-label="Disable Game Activity"]:hover,
-[aria-label="Enable Game Activity"],
-[aria-label="Enable Game Activity"]:hover,
-[aria-label="Turn On Camera"],
-[aria-label="Turn On Camera"]:hover,
-[aria-label="Turn off Camera"],
-[aria-label="Turn off Camera"]:hover,
-[aria-label="Open Soundboard"],
-[aria-label="Open Soundboard"]:hover,
-[aria-label="Start An Activity"],
-[aria-label="Start An Activity"]:hover {
+[aria-label="Disable Game Activity"]:hover {
     display: none !important;
     pointer-events: none !important;
     visibility: hidden !important;
-}
-
-/* ───────── remove ping icon */
-.ping__06d62,
-.largePing__06d62 {
-    display: none !important;
-    pointer-events: none !important;
-    visibility: hidden !important;
-}
-
-/* ───────── remove soundboard icon */
-.actionButtons_e131a9 > span:nth-child(7) {
-    display: none !important;
-}
-
-/* ───────── screenshare icon visible */
-.wrapper_e131a9 > div > div.actionButtons_e131a9 > button:nth-child(3) {
-    position: fixed !important;
-    color: var(--icon-secondary);
-    background: none;
-    width: 32px !important;
-    min-width: 32px !important;
-    max-width: 32px !important;
-    left: 164px;
-    bottom: 82px;
-    padding: 0 !important;
-    z-index: 1000;
 }
