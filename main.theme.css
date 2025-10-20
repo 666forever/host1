@@ -354,7 +354,7 @@ body {
         background: none;
     }
 
-    /* general chat bar improvements */
+    /* ─────────────────── general chat bar improvements */
     .channelTextArea_f75fb0 /* chat bar */ {
         background: hsla(0,0%,0%,1);
         padding: 7px;
@@ -387,7 +387,7 @@ body {
         margin-left: calc((var(--custom-guild-list-padding) - 4px) / 2);
     }
 
-    /* improve embeds */
+    /* ─────────────────── improve embeds */
     .embedFull__623de {
         border: 4px solid var(--border-normal);
         border-top-color: var(--border-subtle) !important;
@@ -398,13 +398,13 @@ body {
         border-right-width: 1px;
     }
 
-    /* improve borders */
+    /* ─────────────────── improve borders */
     .reaction__23977 /* message reactions */,
     .reactionBtn__23977.forceShow__23977 /* add reaction button */ {
         border-width: 2px;
     }
 
-    /* roundness */
+    /* ─────────────────── roundness */
     .embedFull__623de /* embeds */,
     .hljs /* code block */,
     .imageWrapper_af017a /* image */,
@@ -433,7 +433,7 @@ body {
         background: none;
     }
 
-    /* remove unnecessary backgrounds */
+    /* ─────────────────── remove unnecessary backgrounds */
     .app__160d8,
     #app-mount,
     body {
@@ -463,6 +463,11 @@ body {
 }
 .burstGlow__23977 {
     display: none;
+}
+
+/* ─────────────────── settings panel left side */
+.sidebarRegionScroller__23e6b {
+    background: hsla(0, 0%, 0%,0.8);
 }
 
 /* ─────────────────── animations.css */
@@ -1946,4 +1951,5 @@ span.content__908e2 {
     background: none;
     color: hsla(204,35%,35%,0.3);
 }
+
 
