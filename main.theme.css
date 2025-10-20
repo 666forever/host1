@@ -1969,16 +1969,3 @@ span.content__908e2 {
     background: none;
     color: hsla(204,35%,35%,0.3);
 }
-
-/* -------------------------- Settings Modal -------------------------- */
-:root {
-    --settingswidth: 920;
-    --settingsheight: 80;
-    --settingsbackground: var(--bg-4);
-}
-
-.standardSidebarView__8ee6b {
-    background:  var(--bg-4);
-    border-radius: 12px;
-    border: 0px;
-}
