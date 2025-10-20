@@ -60,7 +60,7 @@ body {
     .chat_f75fb0 > .scrollerBase_d125d2 /* server members page */,
     .chat_f75fb0 > .header__0b563  /* server channels and roles header */,
     .chat_f75fb0 > .container__0b563 /* server channels and roles page */ {
-        background-color: hsla(0, 0%, 0%, 0.8);
+        background-color: var(--background-base-lower);
         border-radius: var(--radius-lg);
         border: var(--border-thickness) solid var(--border-subtle);
         backdrop-filter: var(--panel-backdrop-filter);
@@ -317,7 +317,7 @@ body {
         background: none;
     }
     .standardSidebarView__23e6b {
-        background: hsla(0,0%,0%,0) !important;
+        background: hsla(0,0%,0%,1) !important;
     }
 
     /* remove excess backgrounds */
@@ -584,7 +584,7 @@ body {
     --bg-1: hsla(0,0%,20%,1); /* ──── dark buttons when clicked */
     --bg-2: hsla(0,0%,15%,1); /* ──── dark buttons */
     --bg-3: hsla(0,0%,0%,1); /* ──── spacing, secondary elements */
-    --bg-4: hsla(0,0%,5%,1); /* ──── main background color */
+    --bg-4: hsla(0,0%,5%,0); /* ──── main background color */
     --bg-5: hsla(0,0%,0%,0.5); /* ──── half transparent */
     --message-hover: hsla(0,0%,40%,0.2); /* ──── buttons when hovered */
     --active: hsla(0,0%,40%,0.3%); /* ──── clicked or selected */
@@ -1951,5 +1951,6 @@ span.content__908e2 {
     background: none;
     color: hsla(204,35%,35%,0.3);
 }
+
 
 
