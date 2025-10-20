@@ -1,6 +1,7 @@
 /* main.css */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
 @import url(https://abbie.github.io/discord-css/import.css);
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css');
 @import url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/icons.css);
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 
@@ -1969,6 +1970,15 @@ span.content__908e2 {
     color: hsla(204,35%,35%,0.3);
 }
 
+/* -------------------------- Settings Modal -------------------------- */
+:root {
+    --settingswidth: 920;
+    --settingsheight: 80;
+    --settingsbackground: var(--bg-4);
+}
 
-
-
+.standardSidebarView__8ee6b {
+    background:  var(--bg-4);
+    border-radius: 12px;
+    border: 0px;
+}
