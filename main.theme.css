@@ -727,7 +727,7 @@ body {
         --button-danger-border: var(--button-border);
 
         --button-filled-brand-text: var(--text-0);
-        --button-filled-brand-background: var(--accent-3);
+        --button-filled-brand-background: var(--gradient123);
         --button-filled-brand-background-active: var(--accent-5);
         --button-filled-brand-background-hover: var(--accent-4);
         --button-filled-brand-border: var(--button-border);
@@ -923,9 +923,9 @@ body {
         --control-background-critical-secondary-hover: var(--bg-1);
         --control-background-critical-secondary-loading: var(--bg-2);
         --control-background-primary-active: var(--accent-5);
-        --control-background-primary-default: var(--accent-3);
+        --control-background-primary-default: var(--gradient123);
         --control-background-primary-hover: var(--accent-4);
-        --control-background-primary-loading: var(--accent-3);
+        --control-background-primary-loading: var(--gradient123);
         --control-background-secondary-active: var(--text-5);
         --control-background-secondary-default: var(--bg-2);
         --control-background-secondary-hover: var(--bg-1);
@@ -1959,6 +1959,7 @@ span.content__908e2 {
     background: none;
     color: hsla(204,35%,35%,0.3);
 }
+
 
 
 
