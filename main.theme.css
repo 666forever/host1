@@ -961,6 +961,9 @@ body {
         --control-text-secondary-default: var(--text-3);
         --control-text-secondary-hover: var(--text-3);
         --control-text-secondary-loading: var(--text-3);
+
+        --gradient123: linear-gradient(#737373, #bababa);
+
     }
 
     .visual-refresh {
@@ -1956,6 +1959,7 @@ span.content__908e2 {
     background: none;
     color: hsla(204,35%,35%,0.3);
 }
+
 
 
 
