@@ -118,6 +118,7 @@ body {
 
     /* ───────── assets lib */
     --moon-svg: url('https://refact0r.github.io/midnight-discord/assets/Font_Awesome_5_solid_moon.svg');
+    --chry-svg: url('https://raw.githubusercontent.com/notcbandi/theme-host/refs/heads/main/cherries-cherry-fruit-svgrepo-com.svg');
 }
 
 .visual-refresh { 
