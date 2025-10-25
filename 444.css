@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://raw.githubusercontent.com/notcbandi/theme-host-personal/refs/heads/main/tweaks.css');
 
 :root {
@@ -14,6 +15,7 @@ body {
     /* font, change to '' for default discord font */
     --font: 'figtree';
     --code-font: '';
+    font-weight: 200;
 
     /* sizes */
     --gap: 6px; /* spacing between panels */
@@ -22,103 +24,6 @@ body {
     --custom-guild-list-width: calc(var(--guildbar-avatar-size) + var(--custom-guild-list-padding) * 2 + var(--border-thickness) * 2);
 
     --border-hover-transition: 0.2s ease;
-}
-
-/* ─────────── color options */
-:root {
-    /* text colors */
-    --text-0: hsl(0,0%,5%); /* ──── text on colored elements */
-    --text-1: hsl(0,0%,100%); /* ──── other normally white text */
-    --text-2: hsl(0,0%,100%); /* ──── headings and important text */
-    --text-3: hsl(0,0%,70%); /* ──── normal text */
-    --text-4: hsl(0,0%,50%); /* ──── icon buttons and channels */
-    --text-5: hsl(0,0%,25%); /* ──── muted channels/chats and timestamps */
-    --text-brand: var(--accent-3);
-    --text-link: var(--bg-brand);
-
-    /* backgrounds */
-    --bg-1: hsla(0,0%,20%,1); /* ──── dark buttons when clicked */
-    --bg-2: hsla(0,0%,15%,1); /* ──── dark buttons */
-    --bg-3: hsla(0,0%,2%,1); /* ──── spacing, secondary elements */
-    --bg-4: hsla(0,0%,0%,1); /* ──── main background color */
-    --bg-5: hsla(0,0%,0%,0.1); /* ──── half transparent */
-    --hover: hsla(0,0%,5%,0.6); /* ──── buttons when hovered */
-    --active: hsla(0,0%,40%,0.3); /* ──── clicked or selected */
-    --bg-brand: hsla(280,40%,80%,1); /* ──── fixing some blurple */
-    --background-gradient-highest: hsla(0,0%,0%,0); /* ──── chat bar */
-    --chat-background-default: hsla(0,0%,0%,0);
-    --button-elements: hsla(0,0%,1%,1);
-
-    /* accent colors */
-    --accent-1: hsla(204,35%,35%,1); /* ──── links */
-    --accent-2: hsla(204,35%,30%,1); /* ──── general unread/mention elements */
-    --accent-3: hsla(204,35%,45%,1); /* ──── accent buttons */
-    --accent-4: hsla(204,35%,40%,1); /* ──── accent buttons when hovered */
-    --accent-5: hsla(200,35%,30%,1); /* ──── accent buttons when clicked */
-    --accent-6: hsla(200,30%,20%,1); /* ──── connectivity text */
-    --accent-new: var(--red-1);
-    --mention: hsla(0,0%,10%,0.1);
-    --mention-hover: hsla(0,0%,20%,0.15);
-    --reply: hsla(0,0%,20%,0.1);
-    --reply-hover: hsla(0,0%,30%,0.15);
-
-    /* status indicator colors */
-    --online: var(--green-2);
-    --dnd: var(--red-2);
-    --idle: var(--yellow-2);
-    --streaming: var(--purple-2);
-    --offline: var(--text-4);
-
-    /* border colors */
-    --border: transparent;
-    --border-hover: transparent;
-    --border-light: transparent;
-    --border-faint: transparent;
-    --border-normal: transparent;
-    --button-border: transparent;
-    --border-subtle: transparent;
-    --control-border-primary-default: transparent;
-
-    /* base colors */
-    --red-1: oklch(55% 0.12 18);
-    --red-2: oklch(50% 0.12 18);
-    --red-3: oklch(45% 0.12 18);
-    --red-4: oklch(40% 0.12 18);
-    --red-5: oklch(35% 0.12 18);
-
-    --green-1: oklch(75% 0.11 170);
-    --green-2: oklch(70% 0.11 170);
-    --green-3: oklch(65% 0.11 170);
-    --green-4: oklch(60% 0.11 170);
-    --green-5: oklch(55% 0.11 160);
-
-    --blue-1: oklch(60% 0.18 260);
-    --blue-2: oklch(55% 0.18 260);
-    --blue-3: oklch(50% 0.18 260);
-    --blue-4: oklch(45% 0.18 260);
-    --blue-5: oklch(40% 0.18 260);
-
-    --yellow-1: oklch(80% 0.11 90);
-    --yellow-2: oklch(75% 0.11 90);
-    --yellow-3: oklch(70% 0.11 90);
-    --yellow-4: oklch(65% 0.11 90);
-    --yellow-5: oklch(60% 0.11 90);
-
-    --purple-1: oklch(60% 0.20 290);
-    --purple-2: oklch(55% 0.20 290);
-    --purple-3: oklch(50% 0.20 290);
-    --purple-4: oklch(45% 0.20 290);
-    --purple-5: oklch(40% 0.20 290);
-
-    /* backgrounds lib */
-    --gray-bg: url('https://i.imgur.com/iWyT70g.png');
-    --blue-bg: url('https://i.imgur.com/1YLoAVL.png');
-    --gif1-bg: url('https://i.imgur.com/g37uUBF.gif');
-    --gif2-bg: url('https://i.imgur.com/6ZaNcsu.gif');
-
-    /* ───────── assets lib */
-    --moon-svg: url('https://refact0r.github.io/midnight-discord/assets/Font_Awesome_5_solid_moon.svg');
-    --chry-svg: url('https://raw.githubusercontent.com/notcbandi/theme-host/refs/heads/main/cherries-cherry-fruit-svgrepo-com.svg');
 }
 
 .visual-refresh { 
@@ -153,20 +58,25 @@ body {
     .chat_f75fb0 > .container__0b563 /* server channels and roles page */ {
         background-color: var(--background-base-lower);
         border-radius: var(--radius-lg);
-        border: var(--border-thickness) solid var(--border-subtle);
-        backdrop-filter: var(--panel-backdrop-filter);
+        border: none;
+        backdrop-filter: none;
         box-sizing: border-box;
         transition: border-color var(--border-hover-transition);
 
         &:hover {
-            border-color: var(--border-hover);
+            border-color: hsla(0,0%,0%,0);
         }
     }
 
     .panels_c48ade /* user panel */ {
+        padding: 5px;
         bottom: 0;
         left: 0;
         width: 100%;
+    }
+
+    .root_bfe55a /* call background */ {
+        background: hsla(0,0%,0%,0.4);
     }
 
     .sidebar_c48ade /* server list + channel list + user panel group */ {
@@ -204,7 +114,6 @@ body {
     .scroller__629e4 /* channel list inner scroller */ {
         margin-bottom: 0;
     }
-
     .bannerImage_f37cb1,
     .bannerImg_f37cb1 {
         width: 100%;
@@ -548,4 +457,100 @@ body {
 }
 .burstGlow__23977 {
     display: none;
+}
+
+/* ─────────── color options */
+:root {
+    /* text colors */
+    --text-0: hsl(0,0%,5%); /* ──── text on colored elements */
+    --text-1: hsl(0,0%,100%); /* ──── other normally white text */
+    --text-2: hsl(0,0%,100%); /* ──── headings and important text */
+    --text-3: hsl(0,0%,70%); /* ──── normal text */
+    --text-4: hsl(0,0%,50%); /* ──── icon buttons and channels */
+    --text-5: hsl(0,0%,25%); /* ──── muted channels/chats and timestamps */
+    --text-brand: var(--accent-3);
+    --text-link: var(--bg-brand);
+
+    /* backgrounds */
+    --bg-1: hsla(0,0%,20%,1); /* ──── dark buttons when clicked */
+    --bg-2: hsla(0,0%,15%,1); /* ──── dark buttons */
+    --bg-3: hsla(0,0%,2%,1); /* ──── spacing, secondary elements */
+    --bg-4: hsla(0,0%,0%,1); /* ──── main background color */
+    --bg-5: hsla(0,0%,0%,0.1); /* ──── half transparent */
+    --hover: hsla(0,0%,5%,0.6); /* ──── buttons when hovered */
+    --active: hsla(0,0%,40%,0.3); /* ──── clicked or selected */
+    --bg-brand: hsla(280,40%,80%,1); /* ──── fixing some blurple */
+    --background-gradient-highest: hsla(0,0%,0%,0); /* ──── chat bar */
+    --chat-background-default: hsla(0,0%,0%,0);
+    --button-elements: hsla(0,0%,1%,1);
+
+    /* accent colors */
+    --accent-1: hsla(204,35%,35%,1); /* ──── links */
+    --accent-2: hsla(204,35%,30%,1); /* ──── general unread/mention elements */
+    --accent-3: hsla(204,35%,45%,1); /* ──── accent buttons */
+    --accent-4: hsla(204,35%,40%,1); /* ──── accent buttons when hovered */
+    --accent-5: hsla(200,35%,30%,1); /* ──── accent buttons when clicked */
+    --accent-6: hsla(200,30%,20%,1); /* ──── connectivity text */
+    --accent-new: var(--red-1);
+    --mention: hsla(0,0%,10%,0.1);
+    --mention-hover: hsla(0,0%,20%,0.15);
+    --reply: hsla(0,0%,20%,0.1);
+    --reply-hover: hsla(0,0%,30%,0.15);
+
+    /* status indicator colors */
+    --online: var(--green-2);
+    --dnd: var(--red-2);
+    --idle: var(--yellow-2);
+    --streaming: var(--purple-2);
+    --offline: var(--text-4);
+
+    /* border colors */
+    --border: transparent;
+    --border-hover: transparent;
+    --border-light: transparent;
+    --border-faint: transparent;
+    --border-normal: transparent;
+    --button-border: transparent;
+    --border-subtle: transparent;
+    --control-border-primary-default: transparent;
+
+    /* base colors */
+    --red-1: oklch(55% 0.12 18);
+    --red-2: oklch(50% 0.12 18);
+    --red-3: oklch(45% 0.12 18);
+    --red-4: oklch(40% 0.12 18);
+    --red-5: oklch(35% 0.12 18);
+
+    --green-1: oklch(75% 0.11 170);
+    --green-2: oklch(70% 0.11 170);
+    --green-3: oklch(65% 0.11 170);
+    --green-4: oklch(60% 0.11 170);
+    --green-5: oklch(55% 0.11 160);
+
+    --blue-1: oklch(60% 0.18 260);
+    --blue-2: oklch(55% 0.18 260);
+    --blue-3: oklch(50% 0.18 260);
+    --blue-4: oklch(45% 0.18 260);
+    --blue-5: oklch(40% 0.18 260);
+
+    --yellow-1: oklch(80% 0.11 90);
+    --yellow-2: oklch(75% 0.11 90);
+    --yellow-3: oklch(70% 0.11 90);
+    --yellow-4: oklch(65% 0.11 90);
+    --yellow-5: oklch(60% 0.11 90);
+
+    --purple-1: oklch(60% 0.20 290);
+    --purple-2: oklch(55% 0.20 290);
+    --purple-3: oklch(50% 0.20 290);
+    --purple-4: oklch(45% 0.20 290);
+    --purple-5: oklch(40% 0.20 290);
+
+    /* backgrounds lib */
+    --gray-bg: url('https://i.imgur.com/iWyT70g.png');
+    --blue-bg: url('https://i.imgur.com/1YLoAVL.png');
+    --gif1-bg: url('https://i.imgur.com/g37uUBF.gif');
+    --gif2-bg: url('https://i.imgur.com/6ZaNcsu.gif');
+
+    /* ───────── assets lib */
+    --moon-svg: url('https://refact0r.github.io/midnight-discord/assets/Font_Awesome_5_solid_moon.svg');
 }
